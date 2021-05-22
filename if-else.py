@@ -9,3 +9,10 @@ else :
     print('sorry!',name)
     print('not eligible for vote')
     
+'''
+expected output
+enter name: sanjana
+enter age: 19
+Hello sanjana
+eligible for vote
+'''
