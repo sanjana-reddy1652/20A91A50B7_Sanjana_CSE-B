@@ -27,7 +27,7 @@ else :
 '''
  expexted output
  total bill amount: 6000
- discount: 24000.00
+ discount: 2400.00
 '''
     
     
