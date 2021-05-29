@@ -2,10 +2,11 @@
 n=int(input('enter number: '))
 if n==1:
     print('1 is Not prime nor Composite number')
-if n==2:
+elif n==2:
     print('prime number')
-i=2
-while i <= (n//2):
+else:
+    i=2
+    while i <= (n//2):
         if (n % i) == 0:
             print('Not a prime number')
             break
@@ -16,8 +17,6 @@ while i <= (n//2):
 
 '''
 expected output
-
 enter number: 1
 1 is Not prime nor Composite number
-
 '''
