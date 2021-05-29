@@ -1,22 +1,24 @@
 #prime number using while loop
-n=int(input('enter number: '))
+n=int(input('enter number: ')) 
+cnt = 0
+i = 2
 if n==1:
-    print('1 is Not prime nor Composite number')
-elif n==2:
-    print('prime number')
+    print('1 is neither prime nor composite')
+else :
+    while i <= n // 2:
+        if n % i == 0:
+            cnt=1
+            break
+        i=i+1
+    
+if cnt==0:
+    print("Prime number")
 else:
-    i=2
-    while i <= (n//2):
-        if (n % i) == 0:
-            print('Not a prime number')
-            break
-        else:
-            print('Prime number')
-            break
+    print("Not a Prime number")
 
 
 '''
 expected output
 enter number: 1
-1 is Not prime nor Composite number
+1 is neither prime nor Composite number
 '''
